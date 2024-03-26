@@ -10,15 +10,17 @@ import org.springframework.stereotype.Component;
 @Component
 public class ExecutionTimeAspect {
 	
-	@Around("execution(* SpringAssignment.Triangle.perimeter())")
+	@Around("execution(* SpringAssignment.Triangle.*(..))")
 	  public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
 
 			long startTime=System.currentTimeMillis();
+			
 			Object proceed=joinPoint.proceed();
 		
 			long executionTime=System.currentTimeMillis() - startTime;
 			
-			System.out.println(joinPoint.getSignature()+ " executed in "+executionTime+" ms");
+			System.out.println("Total Execution Time " + joinPoint.getSignature()+" : "+ executionTime +" ms");
+			
 			return proceed;
 		
 	     
