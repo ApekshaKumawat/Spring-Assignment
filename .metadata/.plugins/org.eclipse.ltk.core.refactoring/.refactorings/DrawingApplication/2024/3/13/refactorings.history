@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;SpringAssignment.DrawingApplication.Draw&apos; to &apos;MS_Paint&apos;&#x0D;&#x0A;- Original project: &apos;DrawingApplication&apos;&#x0D;&#x0A;- Original element: &apos;SpringAssignment.DrawingApplication.Draw&apos;&#x0D;&#x0A;- Renamed element: &apos;SpringAssignment.DrawingApplication.MS_Paint&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Draw&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;SpringAssignment.DrawingApplication{Draw.java[Draw" matchStrategy="1" name="MS_Paint" qualified="false" references="true" similarDeclarations="false" stamp="1711309607359" textual="false" version="1.0"/>
+</session>

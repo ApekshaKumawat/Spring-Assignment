@@ -10,8 +10,8 @@ public class App
         
     	 ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
          
-         MS_Paint draw = (MS_Paint) context.getBean("MS_Paint","MS_Paint.class");
+         MS_Paint draw = (MS_Paint) context.getBean("PaintBean");
          
-         System.out.println(draw.toString());
+         System.out.println(draw);
     }
 }

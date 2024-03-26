@@ -1,0 +1,13 @@
+package SpringAssignment.DrawingApplication;
+
+public class MS_Paint {
+	
+	
+	private int msPaint_pageHeight;
+	
+	
+	private String penColor;
+	private int penSize;
+	 
+
+}

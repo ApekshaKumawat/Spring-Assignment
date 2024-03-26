@@ -10,8 +10,8 @@
     
     
    
-	 <bean class="SpringAssignment.DrawingApplication.MS_Paint" >
-		<property name="pageHeight" value="${pageHeight}"/>
+	 <bean id="PaintBean" class="SpringAssignment.DrawingApplication.MS_Paint" >
+		<property name="pageHeight" value="${pageHeight}" />
 		<property name="pageWidth" value="${pageWidth}"/>
 		
 		<property name="penColor" value="${penColor}"/>

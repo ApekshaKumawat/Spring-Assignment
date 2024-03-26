@@ -3,12 +3,12 @@ package SpringAssignment.DrawingApplication;
 public class MS_Paint {
 	
 	
-	private int pageHeight;
-	private int pageWidth;
+	private String pageHeight;
+	private String pageWidth;
 	private String penColor;
-	private int penSize;
+	private String penSize;
 	
-	public MS_Paint(int pageHeight, int pageWidth, String penColor, int penSize) {
+	public MS_Paint(String pageHeight, String pageWidth, String penColor, String penSize) {
 		super();
 		this.pageHeight = pageHeight;
 		this.pageWidth = pageWidth;
@@ -19,16 +19,16 @@ public class MS_Paint {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	public int getPageHeight() {
+	public String getPageHeight() {
 		return pageHeight;
 	}
-	public void setPageHeight(int pageHeight) {
+	public void setPageHeight(String pageHeight) {
 		this.pageHeight = pageHeight;
 	}
-	public int getPageWidth() {
+	public String getPageWidth() {
 		return pageWidth;
 	}
-	public void setPageWidth(int pageWidth) {
+	public void setPageWidth(String pageWidth) {
 		this.pageWidth = pageWidth;
 	}
 	public String getPenColor() {
@@ -37,10 +37,10 @@ public class MS_Paint {
 	public void setPenColor(String penColor) {
 		this.penColor = penColor;
 	}
-	public int getPenSize() {
+	public String getPenSize() {
 		return penSize;
 	}
-	public void setPenSize(int penSize) {
+	public void setPenSize(String penSize) {
 		this.penSize = penSize;
 	}
 	
