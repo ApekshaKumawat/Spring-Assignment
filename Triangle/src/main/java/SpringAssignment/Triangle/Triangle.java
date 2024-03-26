@@ -1,5 +1,8 @@
 package SpringAssignment.Triangle;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Triangle {
 	
 	private int side1;

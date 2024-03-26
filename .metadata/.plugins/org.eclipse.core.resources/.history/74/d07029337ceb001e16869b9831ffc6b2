@@ -1,0 +1,23 @@
+package SpringAssignment.LogExecutionTime;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
+
+@Configuration
+@ComponentScan(basePackages="SpringAssignment.Triangle.Triangle")
+@EnableAspectJAutoProxy
+public class config {
+	
+	@Bean
+    public Triangle triangle() {
+        return new Triangle(20,40,30);
+    }
+
+	@Bean
+	public ExecutionTimeAspect ad() {
+		return new ExecutionTimeAspect();
+	}
+	
+}

@@ -1,0 +1,5 @@
+package SpringAssignment.LogExecutionTime.Service;
+
+public class ExecutionTimeAspect {
+
+}
