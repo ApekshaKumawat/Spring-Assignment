@@ -1,19 +1,10 @@
 package SpringAssignment.OneToMany;
 
-import java.util.List;
-
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import SpringAssignment.OneToMany.model.Session;
-import SpringAssignment.OneToMany.model.Trainer;
-import SpringAssignment.OneToMany.repo.TrainerRepo;
-
 public class App 
 {
     public static void main( String[] args )
     {
-        
-    	AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("SpringAssignment.OneToMany");
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext("SpringAssignment.OneToMany");
     	
     	TrainerRepo trainerRepo = context.getBean(TrainerRepo.class);
     	
@@ -27,6 +18,5 @@ public class App
                  System.out.println("- " +session.getSessionId()+ " : " + session.getSessionName());
              }
              System.out.println();
-         }
     }
 }
